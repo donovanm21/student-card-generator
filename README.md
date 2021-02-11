@@ -1,4 +1,4 @@
-# A simple php student card generator
+# Simple Student Card Generator
 
 <img src="https://raw.githubusercontent.com/donovanm21/student-card-generator/main/app.png" >
 
@@ -11,7 +11,7 @@
 
 Simply download MAMP (For Mac) or XAMP (For Windows) and copy the content into the htdocs folder to use the application locally.
 
-MAMP - https://www.mamp.info/en/mac/
+MAMP - https://www.mamp.info/en/mac/ <br>
 XAMPP - https://www.apachefriends.org
 
 A quick search on Youtube for "How to install / use mamp" will give you step by step instruction on getting it setup.
