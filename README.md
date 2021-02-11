@@ -1,6 +1,6 @@
 # A simple php student card generator
 
-<img src="" >
+<img src="https://raw.githubusercontent.com/donovanm21/student-card-generator/main/app.png" >
 
 The application allows anyone to adjust the content with minimal coding experience to reflect details for your particular use case.
 
