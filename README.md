@@ -1,5 +1,7 @@
 # A simple php student card generator
 
+<img src="https://raw.githubusercontent.com/donovanm21/student-card-generator/main/app.png" >
+
 The application allows anyone to adjust the content with minimal coding experience to reflect details for your particular use case.
 
 Simply replace the logo.jpg file with a version of your own logo to have it reflect on the student card template.
