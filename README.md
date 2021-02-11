@@ -9,7 +9,7 @@
 
 ## Run the app on my machine
 
-Simply download MAMP (For Mac) or XAMP (For Windows) and copy the content into the htdocs folder to use the application locally.
+Simply download MAMP (For Mac) or XAMPP (For Windows) and copy the content into the htdocs folder to use the application locally.
 
 MAMP - https://www.mamp.info/en/mac/ <br>
 XAMPP - https://www.apachefriends.org

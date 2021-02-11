@@ -18,7 +18,7 @@
                         <div class="item1">STUDENT CARD</div>
                         <!-- Student picture display if a file is uploaded -->
                         <div class="item2">
-                        <?php if (!$_FILES || $_POST['student-pic'] == null) { ?>
+                        <?php if (!$_FILES || $_POST['student-pic'] !== null) { ?>
                             <img src="student-icon.png" class="student-pic">
                         <?php
                         } else {
