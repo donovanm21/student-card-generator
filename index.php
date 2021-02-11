@@ -14,7 +14,9 @@
             <div class="half-window">
                 <div class="card-container">
                     <div class="grid-container">
+                        <!-- Above student picture -->
                         <div class="item1">STUDENT CARD</div>
+                        <!-- Student picture display if a file is uploaded -->
                         <div class="item2">
                         <?php if (!$_FILES || $_POST['student-pic'] == null) { ?>
                             <img src="student-icon.png" class="student-pic">
@@ -29,6 +31,7 @@
                         }
                         ?>
                         </div>
+                        <!-- Below student picture, student name -->
                         <div class="item3">
                         <?php if (!$_POST['student-name']) { ?>
                         STUDENT NAME
