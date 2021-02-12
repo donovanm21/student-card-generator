@@ -6,13 +6,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="html2canvas.js"></script>
     <title>Student Card</title>
 </head>
 <body>
     <div class="content">
         <div class="wrapper">
             <div class="half-window">
-                <div class="card-container">
+                <div class="card-container" id="card-container">
                     <div class="grid-container">
                         <!-- Above student picture -->
                         <div class="item1">STUDENT CARD</div>
@@ -112,6 +113,9 @@
                             <div class="form-item">
                                 <button type="submit" class="form-submit" name="submit">Update</button>
                             </div>
+                            <div class="form-item">
+                            <a id="link"><button type="button" class="form-download" name="download">Download Card</button></a>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -119,5 +123,12 @@
         </div>
         </div>
     </div>
+    <script>
+        html2canvas(document.querySelector("#card-container")).then(canvas =>  {
+            var link = document.getElementById('link');
+            link.setAttribute('download', 'StudentCard.jpg');
+            link.setAttribute('href', canvas.toDataURL("image/jpg").replace("image/jpg", "image/octet-stream"));
+        });  
+    </script>
 </body>
 </html>

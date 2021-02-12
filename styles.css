@@ -110,3 +110,15 @@
 .form-student-pic {
     padding-top: 15px;
 }
+.form-download {
+    width: 95%;
+    padding: 15px;
+    background-color: #779fb1;
+    border-radius: 5px;
+    border: 1px solid #779fb1;
+    font-weight: bold;
+}
+.form-download:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
